@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: dev.inmo:micro_utils.serialization.typed_serializer:0.8.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/dev/inmo/micro_utils.serialization.typed_serializer/0.8.1/micro_utils.serialization.typed_serializer-0.8.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/dev/inmo/micro_utils.serialization.typed_serializer/0.8.1/micro_utils.serialization.typed_serializer-0.8.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/dev/inmo/micro_utils.serialization.typed_serializer/0.8.1/micro_utils.serialization.typed_serializer-0.8.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
