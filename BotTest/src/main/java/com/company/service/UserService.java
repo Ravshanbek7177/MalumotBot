@@ -39,31 +39,6 @@ public class UserService extends Thread{
     }
 
 
-    public  void main3(Message message){
-        SendMessage sendMessage = new SendMessage();
-        sendMessage.setText("Ushbu bo'limda turli rukndagi videolar uchun tayyor g'oyalar bilan tanishasiz. \n" +
-                "\n" +
-                "Hozirda mavjud:\n" +
-                "- Avtomobilni tasvirga olish uchun g'oyalar;\n" +
-                "- Manzarani tasvirga olish uchun video g'oyalar. \n" +
-                "\n" +
-                "O'zingizga kerakli bo'limni tanlang⤵️");
-        sendMessage.setChatId(String.valueOf(message.getChatId()));
-        sendMessage.setParseMode(ParseMode.HTML);
-        sendMessage.setReplyMarkup(InlineKeyboardUtil.Goya());
-
-        Main.MY_TELEGRAM_BOT.sendMsg(sendMessage);
-    }
-
-
-
-
-
-
-
-
-
-
     public void amal(SendMessage sendMessage, String idStr) {
         sendMessage.setChatId(idStr);
         sendMessage.setText("Ushbu bo'limda real loyihalarda qo'llanilgan tasvirga olish uslublari bilan tanishasiz.\n" +
